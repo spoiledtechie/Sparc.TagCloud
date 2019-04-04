@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A6C0E07-8FCB-4CED-B5D6-59051EF4ED87}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -16,10 +18,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "Examples\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExample", "Examples\WebExample\WebExample.csproj", "{49F2E6EB-9510-4078-8356-A963CD532FFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{7BFBEA09-6D62-4539-9584-63F32EAA03A1}"
+EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = TagCloud.Tests.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -69,8 +70,26 @@ Global
 		{49F2E6EB-9510-4078-8356-A963CD532FFE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{49F2E6EB-9510-4078-8356-A963CD532FFE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{49F2E6EB-9510-4078-8356-A963CD532FFE}.Release|x86.ActiveCfg = Release|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{7BFBEA09-6D62-4539-9584-63F32EAA03A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {848AF33B-35CE-4AB6-B8DB-EC3AD23FB908}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TagCloud.Tests.vsmdi
 	EndGlobalSection
 EndGlobal
